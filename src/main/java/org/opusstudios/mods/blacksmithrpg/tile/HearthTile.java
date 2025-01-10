@@ -5,8 +5,8 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import org.opusstudios.mods.blacksmithrpg.registry.BSRPGTileEntity;
 
-public class FurnaceEntity extends BlockEntity {
-    public FurnaceEntity(BlockPos pos, BlockState state) {
-        super(BSRPGTileEntity.FURNACE_ENTITY.get(), pos, state);
+public class HearthTile extends BlockEntity {
+    public HearthTile(BlockPos pos, BlockState state) {
+        super(BSRPGTileEntity.HEARTH_TILE.get(), pos, state);
     }
 }
